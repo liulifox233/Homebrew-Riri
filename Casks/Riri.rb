@@ -1,4 +1,4 @@
-cask "Riri" do
+cask "riri" do
   version "1.0.3"
   arch arm: "ARM64", intel: "X64"
   sha256 arm:   "4e5fbb33ef1cd9c628108d5213b07a0be2d24f1f2af1c7c1bd321c11ee08def6",
