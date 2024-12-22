@@ -10,6 +10,11 @@ cask "riri" do
   desc "A simple menubar tool to display lyrics for Apple Music in MacOS."
   homepage "https://github.com/liulifox233/Riri"
 
+  livecheck do
+    url "https://api.github.com/repos/liulifox233/Riri/releases"
+    regex(/"tag_name":\s*"v?(\d+(?:\.\d+)+)"/)
+  end
+
   app "Riri.app"
 
   zap trash: [
