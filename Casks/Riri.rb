@@ -1,8 +1,8 @@
 cask "riri" do
-  version "1.0.3"
+  version "2.0.0"
   arch arm: "ARM64", intel: "X64"
-  sha256 arm:   "4e5fbb33ef1cd9c628108d5213b07a0be2d24f1f2af1c7c1bd321c11ee08def6",
-         intel: "61388ba01d0dbdbedcc13a699287843e21e39a8b70b5b8f0f076479ffca97fb9"
+  sha256 arm:   "cafe18e053cd19c04ec69c18c0391aaf99397dfb84df284e67f8e084f58ded2a",
+         intel: "527eba74dcd48d326515e265830eb244bc9f0d4bf65cc9acdcf13e94dd6f823f"
 
   url "https://github.com/liulifox233/Riri/releases/download/v#{version}/Riri-macOS-#{arch}.zip",
       verified: "github.com/liulifox233/Riri"
